@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+.top-container{
+    background-color: #eaf6f6;
+    position: relative;
+    padding-top: 100px;
+}
+
+.heading-name{
+    font-family: cursive;
+    font-size: 64px;
+}
+
+h1, h2{
+    color: #66bfbf;
+}
+
+h3{
+    color: #11999E;
+}
+
+.heading-role{
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+.heading-role span{
+    text-decoration: underline;
+}
+
+.top-cloud{
+    position: absolute;
+    left: 300px;
+    top: 30px;
+}
+.bottom-cloud{
+    position: absolute;
+    right: 300px;
+    top: 300px;
+}
+
+hr{
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    margin: 24px auto;
+    width: 5%;
+}
+.profile-image{
+    width: 120px;
+    height: 120px;
+    margin: 24px;
+    border-radius: 100%;
+}
+
+.profile p{
+    width: 33%;
+    margin: auto;
+}
+
+.skill-row{
+    padding: 24px;
+    text-align: start;
+    width: 50%;
+    margin: 24px auto;
+}
+
+.code-img{
+    width: 120px;
+    height: 120px;
+    margin: 12px;
+    margin-right: 24px;
+    border-radius: 100%;
+    float: left;
+}
+.chilli-img{
+    width: 120px;
+    height: 120px;
+    margin: 12px;
+    margin-left: 24px;
+    float: right;
+    border-radius: 100%;
+}
+
+.contact-me p{
+    width: 33%;
+    margin: 36px auto 36px;
+}
+.btn{
+    background-color: #66bfbf;
+    padding: 12px;
+    color: #eaf6f6;
+    text-decoration: none;
+    border: #11999E 6px;
+    border-radius: 6px;
+}
+
+.btn:hover{
+    background-color: #11999E;
+}
+
+.bottom-container{
+    background-color: #66bfbf;
+    margin-top: 36px;
+    padding: 24px;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: #11999E;
+    padding: 0 24px;
+}
+
+.footer-link:hover{
+    color: #eaf6f6;
+}
+
+.bottom-container p{
+    color: #eaf6f6;
+}
